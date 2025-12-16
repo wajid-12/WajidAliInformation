@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wajid Ali Information</title>
+</head>
+
+<body style="margin:0; font-family: Arial, sans-serif; background-color:#f4f4f4;">
+
+<!-- HEADER -->
+<div style="
+    background-color:#2c3e50;
+    color:white;
+    padding:20px;
+    text-align:center;
+    font-size:28px;
+">
+    Wajid Ali Information
+</div>
+
+<!-- MENU -->
+<div style="
+    background-color:#34495e;
+    display:flex;
+    align-items:center;
+    padding:10px 20px;
+">
+    <img src="wajid.jpg"
+         style="width:50px; height:50px; border-radius:50%; margin-right:15px;">
+    <span style="color:white; font-size:20px; font-weight:bold;">
+        Wajid Ali
+    </span>
+</div>
+
+<!-- BUTTONS -->
+<div style="text-align:center; margin:20px;">
+    <button onclick="showTemplate('t1')" style="padding:10px 15px; margin:5px;">Skills</button>
+    <button onclick="showTemplate('t2')" style="padding:10px 15px; margin:5px;">About</button>
+    <button onclick="showTemplate('t3')" style="padding:10px 15px; margin:5px;">Contact</button>
+</div>
+
+<!-- TEMPLATE 1 -->
+<div id="t1" style="display:none; background:white; margin:20px; padding:20px; border-radius:5px;">
+    <h2>Skills</h2>
+    <ul>
+        <li>Web Designing</li>
+        <li>Web Development</li>
+        <li>Database Development</li>
+        <li>Application Development</li>
+        <li>Microsoft Specialist</li>
+    </ul>
+</div>
+
+<!-- TEMPLATE 2 -->
+<div id="t2" style="display:none; background:white; margin:20px; padding:20px; border-radius:5px;">
+    <h2>About</h2>
+
+            <pre>
+            Wajid Ali
+
+Location: Chinglai Village, District Buner, Khyber Pakhtunkhwa (KPK), Pakistan – Asia.
+
+Contact Information:
+
+Email: wajid909012@gmail.com
+
+Phone: +92 314 1523991
+
+Education:
+
+Matriculation: Completed from Chinglai Merzaky School, Buner.
+
+Intermediate (F.Sc.): Completed in Computer Science from Chamla College, Buner, laying a strong foundation in programming fundamentals and IT concepts.
+
+Bachelor of Science (BS): Currently enrolled in a BS Computer Science program (5th Semester). Actively engaged in advanced coursework including Data Structures, Algorithms, Database Management Systems, and Software Engineering, with a keen interest in applying theoretical knowledge to practical solutions.
+
+Profile Summary:
+A diligent and motivated Computer Science student in the advanced stages of his undergraduate degree. Hailing from Buner, KPK, I combine a strong academic foundation from local institutions with a growing expertise in modern computing disciplines. My journey from Chinglai Merzaky School to Chamla College and now to a BS program has instilled a robust work ethic and a deep-seated passion for technology. I am eager to leverage my skills in programming, problem-solving, and software development to contribute to innovative projects and gain hands-on professional experience in the tech industry.
+
+Key Skills (Based on Typical 5th Semester Curriculum):
+
+Programming Languages (e.g., C++, Java, Python)
+
+Object-Oriented Programming (OOP)
+
+Data Structures & Algorithms
+
+Database Management & SQL
+
+Web Development Basics (HTML, CSS, JavaScript)
+
+Software Development Lifecycle
+
+Problem-Solving & Analytical Thinking
+
+How to Use This Precis:
+LinkedIn Profile: Use the "Profile Summary" section as your LinkedIn "About" section. List your education and contact details in the dedicated sections.
+
+Resume/CV Intro: Use the "Profile Summary" as your professional objective or summary at the top of your resume.
+
+Email Signature: You can use a shorter version for emails:
+
+Wajid Ali
+BS Computer Science (5th Semester) | KPK, Pakistan
+Email: wajid909012@gmail.com | Phone: +92 314 1523991
+
+Cover Letters: Integrate key points from the profile summary into your cover letter to introduce yourself professionally.
+        </pre>
+</div>
+
+<!-- TEMPLATE 3 -->
+<div id="t3" style="display:none; background:white; margin:20px; padding:20px; border-radius:5px;">
+    <h2>Contact</h2>
+    <p>Email: wajid909012@gmail.com</p>
+    <p>Location: Chinglai Buner</p>
+    <p>Phone: 0314-1523991</p>
+</div>
+
+<!-- 🌸 BEAUTIFUL BACKGROUND SECTION ADDED -->
+<div style="
+    background-image:url('one.jpg');
+    background-size:cover;
+    background-position:center;
+    padding:80px 20px;
+    text-align:center;
+    color:white;
+    margin-top:30px;
+">
+
+    <h1 style="font-size:40px; text-shadow:2px 2px 5px black;">
+        Wajid Ali
+    </h1>
+
+    <p style="font-size:20px; text-shadow:1px 1px 4px black;">
+        Personal Information Website
+    </p>
+
+    <img src="wajid.jpg"
+         style="
+            width:150px;
+            height:150px;
+            border-radius:50%;
+            border:4px solid white;
+            margin:20px 0;
+         ">
+
+    <div style="
+        max-width:600px;
+        margin:auto;
+        background:rgba(0,0,0,0.6);
+        padding:20px;
+        border-radius:10px;
+        line-height:1.6;
+    ">
+        Hello! My name is <b>Wajid Ali</b>.  
+        I am student of BS Computer Science.
+    </div>
+
+</div>
+
+<!-- FOOTER -->
+<div style="
+    background-color:#2c3e50;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+">
+    © 2025 Wajid Ali <br>
+    Website Developed by Wajid Ali
+</div>
+
+<!-- SCRIPT -->
+<script>
+    function showTemplate(id) {
+        document.getElementById("t1").style.display = "none";
+        document.getElementById("t2").style.display = "none";
+        document.getElementById("t3").style.display = "none";
+        document.getElementById(id).style.display = "block";
+    }
+    showTemplate("t1");
+</script>
+
+</body>
+</html>
